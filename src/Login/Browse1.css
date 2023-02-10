@@ -1,0 +1,79 @@
+.backall {
+    background: linear-gradient(
+        to bottom,
+        rgba(20,20,20,0.1) 0%,
+        rgba(20,20,20,0.8) 10%,
+        rgba(20,20,20,1) 20%
+    );
+}
+
+.original_header {
+    background: linear-gradient(
+        to bottom,
+        rgba(20,20,20,0.9) 0%,
+        rgba(20,20,20,0.8) 20%,
+        rgba(20,20,20,0.01) 80%
+    );
+    transition: background-color .4s;
+}
+
+.original_header1 {
+    padding-top: 3%;
+    transition: background-color .4s;
+}
+
+.change_header {
+    transition: background-color .4s;
+    background-color: rgba(20,20,20,1);
+}
+
+.change_header1 {
+    top: 0;
+    transition: background-color .4s;
+    background-color: rgba(20,20,20,1);
+}
+
+button {
+    border-radius: 3px;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+.home:hover {
+    opacity: 0.8;
+}
+
+.series:hover {
+    opacity: 0.8;
+}
+
+.movie:hover {
+    opacity: 0.8;
+}
+
+.contents:hover {
+    opacity: 0.8;
+}
+
+.zzim:hover {
+    opacity: 0.8;
+}
+
+.language:hover {
+    opacity: 0.8;
+}
+
+.title-all {
+    background: linear-gradient(
+        to right,
+        rgba(0,0,0,0.8) 0%,
+        rgba(0,0,0,0.5) 20%,
+        rgba(0,0,0,0.01) 80%
+    );
+}
+
+.ui-select-medium:hover {
+    background-color: rgba(0,0,0,0.01);
+}

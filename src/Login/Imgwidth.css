@@ -1,0 +1,21 @@
+.img22 {
+    opacity: 0;
+    transition: all 0.3s;
+    z-index: 200;
+}
+
+.img22:hover {
+    opacity: 1;
+    transform-origin: left;
+    transform: scale(1.4,1.4);
+}
+
+.first {
+    z-index: 1;
+    transition: all 0.3s;
+}
+
+
+.first123:hover + .img22{
+    opacity: 1;
+}

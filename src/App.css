@@ -1,38 +1,27 @@
-.App {
-  text-align: center;
+.banner img {
+  filter: brightness(50%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backimg {
+  margin-top: -300px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background-wrap {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.banner {
+  position: relative; /* 핵심코드 */
+  background-repeat :no-repeat;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-txt {
+  position: absolute; /* 핵심코드 */
+  top: 0; /* 핵심코드 */
+  left: 0; /* 핵심코드 */
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+input:focus{outline: 1px solid blue;}
